@@ -66,14 +66,9 @@
 				$('#faderpic').fadeOut()
 			});
 
-			// .toggleFade
-			// $('#togglefade').click(function(){
-			// 	$('#faderpic').fadeToggle("slow")
-			// });
-
 			// .focus
 			$('#focus').focus(function(){
-				$('#focusresult').css('display','inline').fadeOut(2000);
+				$('#focusresult').css('display','inline').fadeOut(2000);	
 			});
 
 			// .click
@@ -158,7 +153,6 @@
 	<h2>.fadeIn / .fadeOut</h2>
 	<p>Click to fade a picture in & out.</p>
 	<button id="faderon">Fade In</button><button id="faderoff">Fade Out</button>
-	<!-- <button id="togglefade">Fade In/Out</button> -->
 	<img id="faderpic" src="yoga-dog.jpeg" alt="Yoga Dog">
 
 	<!-- .focus -->
@@ -175,7 +169,7 @@
 	<img id="incorrect" src="great-dane.JPG" alt="">
 
 	<!-- .prepend -->
-	<h2>.prepend</h2>
+	<h2>.prepend (instead of .before)</h2>
 	<p>Below are some things you might need. Click if you are:</p>
 	<button id="beg">Beginner</button>
 	<button id="int">Intermediate</button>
@@ -195,7 +189,7 @@
 	</ul>
 
 	<!-- .attr -->
-	<h2>.attr (really .css), .html</h2>
+	<h2>.attr (really .css) + .html (really .text, but I used .html to do it)</h2>
 	<p>Would you like to know the dimensions of this picture? ¡Empuje el botón!</p>
 	<img id="pic1" src="messi-volley.jpg" alt="">
 	<button id="getattr">Get Dimensions</button>
