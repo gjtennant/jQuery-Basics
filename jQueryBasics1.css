@@ -1,0 +1,54 @@
+html{
+	font-family: Calibri;
+}
+
+h2{
+	background-color: #00CCA3;
+	font-size: 16px;
+	margin-top: 30px;
+}
+h2:first-child{
+	margin-top: 0px;
+}
+
+p{
+	display:inline;
+}
+
+button{
+	margin-right: 10px;
+	background-color: #D1A319;
+	border:1px solid grey;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #888888;
+}
+
+.red{
+	color: red;
+}
+
+.checkoff{
+	font-size: 12px;
+	color: red;
+}
+#checklist p{
+	display: block;
+}
+#togglepic{
+	display: block;
+}
+#faderpic{
+	display: block;
+}
+#focusresult{
+	display: none;
+}
+#incorrect{
+		height: 247px;
+}
+ul{
+	list-style-type: none;
+}
+#pic1{
+	display: block;
+}
