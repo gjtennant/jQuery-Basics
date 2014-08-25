@@ -9,22 +9,26 @@
 		$(document).ready(function(){
 
 			// .addClass
-			$('#AddClassButton').click(function(){
+			$('#AddClassButton').click(function()
+			{
 				$('#paragraph-to-change').addClass('red')
 			});
 
 			// .after
-			$('#AfterButton').click(function(){
+			$('#AfterButton').click(function()
+			{
 				$("#paragraph-to-add-to").after("<p class='checkoff'> √ I understand this point implicitly</p>");
 			});
 
 			// .append
-			$('#append').click(function(){
+			$('#append').click(function()
+			{
 				$('#checklist p').append(" √");
 			});
 
 			// .toggle
-			$('#toggle').click(function(){
+			$('#toggle').click(function()
+			{
 				$('#togglepic').toggle();
 			});
 
@@ -33,72 +37,87 @@
 
 			//.show / .hide
 			$('#irrelevant').hide();
-			$('#show').click(function(){
+			$('#show').click(function()
+			{
 				$('#irrelevant').show()
 			});
-			$('#hide').click(function(){
+			$('#hide').click(function()
+			{
 				$('#irrelevant').hide()
 			});
 
 			// .slideDown
-			$('#sliderdown').click(function(){
+			$('#sliderdown').click(function()
+			{
 				$('#togglepic').slideDown("slow")
 			});
 
 			// .slideUp
-			$('#sliderup').click(function(){
+			$('#sliderup').click(function()
+			{
 				$('#togglepic').slideUp("fast")
 			});
 
 			// .slideToggle
-			$('#slidetoggle').click(function(){
+			$('#slidetoggle').click(function()
+			{
 				$('#togglepic').slideToggle()
 			});
 
 			// .fadeIn
 			$('#faderpic').hide();
-			$('#faderon').click(function(){
+			$('#faderon').click(function()
+			{
 				$('#faderpic').fadeIn()
 			});
 
 			// .fadeOut
-			$('#faderoff').click(function(){
+			$('#faderoff').click(function()
+			{
 				$('#faderpic').fadeOut()
 			});
 
 			// .focus
-			$('#focus').focus(function(){
-				$('#focusresult').css('display','inline').fadeOut(2000);	
+			$('#focus').focus(function()
+			{
+				$('#focusresult').css('display','inline').fadeOut(3000);	
 			});
 
 			// .click
-			$('#correct').click(function(){
+			$('#correct').click(function()
+			{
 				console.log("Click worked")
 				alert("Awesome job, Batman, you know your dogs!");
 			});
-			$('#incorrect').click(function(){
+			$('#incorrect').click(function()
+			{
 				console.log("Click worked")
 				alert("That is so not a pug!! Try again.");
 			});
 
 			// .prepend
-			$('#beg').click(function(){
+			$('#beg').click(function()
+			{
 				$('.beg').prepend("√ ");
 			})
-			$('#int').click(function(){
+			$('#int').click(function()
+			{
 				$('.int').prepend("√ ")
 			})
-			$('#pro').click(function(){
+			$('#pro').click(function()
+			{
 				$('.pro').prepend("√ ")
 			})
 
 			// .attr, .html
-			$("#getattr").click(function(){
+			$("#getattr").click(function()
+			{
 				var pic1width=$("#pic1").css('width');
 				var pic1height=$("#pic1").css('height');
 				$("#widthreport").html("The picture is " + pic1width + " wide and " + pic1height + " high.");
 			})
-			$("#setwidth").click(function(){
+			$("#setwidth").click(function()
+			{
 				$("#pic1").css('width', '400px');
 				var pic1width=$("#pic1").css('width');
 				var pic1height=$("#pic1").css('height');
